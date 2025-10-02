@@ -59,6 +59,7 @@ def update():
         logging.info("update: no aquarium")
         return
     print("\nPick a field to change\n")
+    print()
     print("\t1) Name")
     print("\t2) Volume (gal)")
     print("\t3) Corals")
@@ -177,7 +178,8 @@ def generate_day():
 def main():
     while True:
         choice = input(
-            "\nChoose an option\n"
+            "\n\tChoose an option:\n"
+            "\n"
             "\t1) Show aquarium\n"
             "\t2) Create aquarium\n"
             "\t3) Update\n"
