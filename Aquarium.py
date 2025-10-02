@@ -27,16 +27,16 @@ class Aquarium:
             f"Inhabitants ->\n{self.inhabitants}"
         )
 
-    def get_name(self):
+    def get_name(self) -> str:
         return self.name
 
-    def set_name(self, v):
+    def set_name(self, v: str):
         self.name = v
 
-    def get_volume_gal(self):
+    def get_volume_gal(self) -> float:
         return self.volume_gal
 
-    def set_volume_gal(self, v):
+    def set_volume_gal(self, v: float):
         self.volume_gal = v
 
     def get_inhabitants(self):
@@ -45,20 +45,20 @@ class Aquarium:
     def set_inhabitants(self, v: Inhabitants):
         self.inhabitants = v
 
-    def get_alk_dkh(self):
+    def get_alk_dkh(self) -> float:
         return self.alk_dkh
 
-    def set_alk_dkh(self, v):
+    def set_alk_dkh(self, v: float):
         self.alk_dkh = v
 
-    def get_calcium_ppm(self):
+    def get_calcium_ppm(self) -> float:
         return self.calcium_ppm
 
-    def set_calcium_ppm(self, v):
+    def set_calcium_ppm(self, v: float):
         self.calcium_ppm = v
 
-    def get_day(self):
+    def get_day(self) -> int:
         return self.day
 
-    def inc_day(self, n=1):
+    def inc_day(self, n: int=1):
         self.day += n

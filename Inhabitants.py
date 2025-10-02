@@ -11,20 +11,20 @@ class Inhabitants:
             f"Invertebrates: {self.invertebrates}"
         )
 
-    def get_corals(self):
+    def get_corals(self) -> int:
         return self.corals
 
-    def set_corals(self, v):
+    def set_corals(self, v: int):
         self.corals = v
 
-    def get_fish(self):
+    def get_fish(self) -> int:
         return self.fish
 
-    def set_fish(self, v):
+    def set_fish(self, v: int):
         self.fish = v
 
-    def get_invertebrates(self):
+    def get_invertebrates(self) -> int:
         return self.invertebrates
 
-    def set_invertebrates(self, v):
+    def set_invertebrates(self, v: int):
         self.invertebrates = v
