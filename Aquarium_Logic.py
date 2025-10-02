@@ -130,5 +130,5 @@ def water_change(gallons: float) -> Aquarium | None:
     aq.set_alk_dkh(alk)
     aq.set_calcium_ppm(ca)
     save_single(aq)
-    logging.info(f"water change: {gallons:.1f} gal")
+    logging.info(f"water change")
     return aq
