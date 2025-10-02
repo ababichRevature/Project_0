@@ -9,7 +9,7 @@ logging.basicConfig(
 )
 
 MAIN_FILE = "Aquarium.txt"
-NEW_WATER_ALK = 15.0
+NEW_WATER_ALK = 14.0
 NEW_WATER_CA = 420.0
 
 def format_line(aq: Aquarium) -> str:

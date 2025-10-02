@@ -1,0 +1,9 @@
+
+Name: new_good Name
+Volume: 40.0 gal
+Day: 4
+Corals: 3
+Fish: 2
+Invertebrates: 3
+Alkalinity: 12.14 dKH
+Calcium: 392 ppm

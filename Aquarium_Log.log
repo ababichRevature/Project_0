@@ -1,0 +1,39 @@
+2025-10-02 09:44:08,195 | INFO | file not found
+2025-10-02 09:44:19,380 | INFO | saved aquarium
+2025-10-02 09:44:19,381 | INFO | create: done
+2025-10-02 09:44:21,392 | INFO | loaded aquarium
+2025-10-02 09:44:33,516 | INFO | loaded aquarium
+2025-10-02 09:45:39,640 | INFO | saved aquarium
+2025-10-02 09:45:39,640 | INFO | update: saved
+2025-10-02 09:46:06,379 | INFO | quit
+2025-10-02 09:46:09,377 | INFO | loaded aquarium
+2025-10-02 09:46:44,341 | INFO | menu: bad choice
+2025-10-02 09:46:48,676 | INFO | loaded aquarium
+2025-10-02 09:46:51,341 | INFO | loaded aquarium
+2025-10-02 09:46:59,154 | INFO | saved aquarium
+2025-10-02 09:46:59,155 | INFO | update: saved
+2025-10-02 09:47:14,821 | INFO | loaded aquarium
+2025-10-02 09:47:28,256 | INFO | update: bad number input
+2025-10-02 09:47:36,823 | INFO | update: negative fish
+2025-10-02 09:47:43,762 | INFO | update: back
+2025-10-02 09:47:46,201 | INFO | loaded aquarium
+2025-10-02 09:47:55,266 | INFO | loaded aquarium
+2025-10-02 09:47:55,266 | INFO | saved aquarium
+2025-10-02 09:47:55,266 | INFO | day advanced: alk -0.525, ca -7.500
+2025-10-02 09:47:55,266 | INFO | day: advanced
+2025-10-02 09:48:00,742 | INFO | loaded aquarium
+2025-10-02 09:48:00,743 | INFO | saved aquarium
+2025-10-02 09:48:00,743 | INFO | day advanced: alk -0.525, ca -7.500
+2025-10-02 09:48:00,743 | INFO | day: advanced
+2025-10-02 09:48:05,888 | INFO | loaded aquarium
+2025-10-02 09:48:05,888 | INFO | saved aquarium
+2025-10-02 09:48:05,889 | INFO | day advanced: alk -0.525, ca -7.500
+2025-10-02 09:48:05,889 | INFO | day: advanced
+2025-10-02 09:48:37,580 | INFO | loaded aquarium
+2025-10-02 09:49:02,679 | INFO | loaded aquarium
+2025-10-02 09:49:07,471 | INFO | loaded aquarium
+2025-10-02 09:49:07,472 | INFO | saved aquarium
+2025-10-02 09:49:07,472 | INFO | water change: 15.0 gal
+2025-10-02 09:49:07,472 | INFO | water change: done
+2025-10-02 09:49:10,716 | INFO | loaded aquarium
+2025-10-02 09:55:38,330 | INFO | quit
