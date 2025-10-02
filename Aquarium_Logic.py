@@ -30,8 +30,9 @@ def parse_line(text: str) -> dict:
     rec = {}
     lines = []
     for l in text.strip().splitlines():
-        if l.strip():
-            lines.append(l.strip())
+        s = l.strip()
+        if s:
+            lines.append(s)
 
     for l in lines:
         if ":" in l:
@@ -51,15 +52,15 @@ def parse_line(text: str) -> dict:
 def dict_to_aquarium(d: dict) -> Aquarium:
     return Aquarium(
         name=d.get("Name", "Untitled"),
-        volume_gal=float(d.get("Vol", 0.0)),
+        volume_gal=float(d.get("Vol")),
         inhabitants=Inhabitants(
-            int(d.get("Corals", 0)),
-            int(d.get("Fish", 0)),
-            int(d.get("Invertebrates", 0)),
+            int(d.get("Corals")),
+            int(d.get("Fish")),
+            int(d.get("Invertebrates")),
         ),
-        alk_dkh=float(d.get("ALK", 8.0)),
-        calcium_ppm=float(d.get("Ca", 400.0)),
-        day=int(d.get("Day", 1)),
+        alk_dkh=float(d.get("ALK")),
+        calcium_ppm=float(d.get("Ca")),
+        day=int(d.get("Day")),
     )
 
 def load_single() -> Aquarium | None:
