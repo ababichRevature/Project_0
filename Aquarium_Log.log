@@ -1,0 +1,46 @@
+2025-10-02 10:04:51,617 | INFO | file not found
+2025-10-02 10:05:39,695 | INFO | saved aquarium
+2025-10-02 10:05:39,695 | INFO | create: done
+2025-10-02 10:06:01,853 | INFO | create: invalid volume
+2025-10-02 10:06:21,164 | INFO | loaded aquarium
+2025-10-02 10:06:29,026 | INFO | loaded aquarium
+2025-10-02 10:06:42,281 | INFO | saved aquarium
+2025-10-02 10:06:42,281 | INFO | update: saved
+2025-10-02 10:06:49,856 | INFO | loaded aquarium
+2025-10-02 10:06:49,856 | INFO | saved aquarium
+2025-10-02 10:06:49,856 | INFO | day advanced: alk -0.583, ca -8.333
+2025-10-02 10:06:49,856 | INFO | day: advanced
+2025-10-02 10:06:50,730 | INFO | loaded aquarium
+2025-10-02 10:06:50,731 | INFO | saved aquarium
+2025-10-02 10:06:50,731 | INFO | day advanced: alk -0.583, ca -8.333
+2025-10-02 10:06:50,731 | INFO | day: advanced
+2025-10-02 10:06:54,602 | INFO | loaded aquarium
+2025-10-02 10:07:06,367 | INFO | loaded aquarium
+2025-10-02 10:07:12,089 | INFO | loaded aquarium
+2025-10-02 10:07:12,089 | INFO | saved aquarium
+2025-10-02 10:07:12,089 | INFO | water change: 5.0 gal
+2025-10-02 10:07:12,089 | INFO | water change: done
+2025-10-02 10:07:13,666 | INFO | loaded aquarium
+2025-10-02 10:07:21,011 | INFO | loaded aquarium
+2025-10-02 10:07:21,947 | INFO | loaded aquarium
+2025-10-02 10:07:21,948 | INFO | saved aquarium
+2025-10-02 10:07:21,948 | INFO | water change: 5.0 gal
+2025-10-02 10:07:21,948 | INFO | water change: done
+2025-10-02 10:07:22,871 | INFO | loaded aquarium
+2025-10-02 10:07:33,203 | INFO | loaded aquarium
+2025-10-02 10:07:56,508 | INFO | update: bad number input
+2025-10-02 10:08:19,665 | INFO | update: bad number input
+2025-10-02 10:08:32,156 | INFO | saved aquarium
+2025-10-02 10:08:32,156 | INFO | update: saved
+2025-10-02 10:08:42,175 | INFO | loaded aquarium
+2025-10-02 10:08:42,176 | INFO | saved aquarium
+2025-10-02 10:08:42,176 | INFO | day advanced: alk -0.583, ca -8.333
+2025-10-02 10:08:42,176 | INFO | day: advanced
+2025-10-02 10:08:42,923 | INFO | loaded aquarium
+2025-10-02 10:08:47,876 | INFO | loaded aquarium
+2025-10-02 10:08:49,151 | INFO | loaded aquarium
+2025-10-02 10:08:49,152 | INFO | saved aquarium
+2025-10-02 10:08:49,152 | INFO | water change: 10.0 gal
+2025-10-02 10:08:49,152 | INFO | water change: done
+2025-10-02 10:08:50,055 | INFO | loaded aquarium
+2025-10-02 12:38:29,780 | INFO | quit

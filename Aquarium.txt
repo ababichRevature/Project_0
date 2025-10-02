@@ -1,0 +1,9 @@
+
+Name: Nemo House
+Volume: 36.0 gal
+Day: 4
+Corals: 3
+Fish: 6
+Invertebrates: 5
+Alkalinity: 11.89 dKH
+Calcium: 395 ppm

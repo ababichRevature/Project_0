@@ -17,13 +17,13 @@ def show_aquarium():
 def create_aquarium():
     print(" Create Aquarium ")
     try:
-        name = input("Name: ").strip()
-        volume = float(input("Volume (gal): ").strip())
-        corals = int(input("Corals: ").strip())
-        fish = int(input("Fish: ").strip())
-        inverts = int(input("Invertebrates: ").strip())
-        alk = float(input("Alkalinity (dKH): ").strip())
-        ca = float(input("Calcium (ppm): ").strip())
+        name = input("Please enter Name: ").strip()
+        volume = float(input("Please enter Volume (gal): ").strip())
+        corals = int(input("Please enter Number of Corals: ").strip())
+        fish = int(input("Please enter Number of Fish: ").strip())
+        inverts = int(input("Please enter Number of Invertebrates: ").strip())
+        alk = float(input("Please enter Alkalinity (dKH): ").strip())
+        ca = float(input("Please enter Calcium (ppm): ").strip())
     except ValueError:
         print("Please enter numbers where needed.")
         logging.info("create: bad number input")

@@ -28,7 +28,11 @@ def format_line(aq: Aquarium) -> str:
 
 def parse_line(text: str) -> dict:
     rec = {}
-    lines = [l.strip() for l in text.strip().splitlines() if l.strip()]
+    lines = []
+    for l in text.strip().splitlines():
+        if l.strip():
+            lines.append(l.strip())
+
     for l in lines:
         if ":" in l:
             k, v = l.split(":", 1)
@@ -102,7 +106,7 @@ def advance_one_day() -> Aquarium | None:
     aq.set_calcium_ppm(max(0.0, aq.get_calcium_ppm() - drop_calc))
     aq.inc_day(1)
     save_single(aq)
-    logging.info(f"day advanced: alk -{drop_alk:.3f}, ca -{drop_calc:.3f}")
+    logging.info(f"day advanced.")
     return aq
 
 def water_change(gallons: float) -> Aquarium | None:
